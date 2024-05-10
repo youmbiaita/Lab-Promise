@@ -32,7 +32,7 @@ async function getUserData(id) {
   // // };
   // console.log(dbs.db1(id));
   
-
+// part2
   Promise.all([vault(id)])
   .then((x) =>{
     console.log(x)
